@@ -27,7 +27,10 @@
         <div class="bot1-1">FB:????????????????</div>
     </div>
     <script>
-        document.getElementById("image1").addEventListener("click", function() {
+        document.getElementById("image1").addEventListener("mouseover","click", function() {
+            if (event.type =="mouseover"){
+                
+            }
             document.getElementById("link1").click();  // Trigger the click on the <a> tag
         });
         document.getElementById("image2").addEventListener("click", function() {
